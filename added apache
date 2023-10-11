@@ -1,6 +1,6 @@
 ---
 - name: activity1
-  becoms: yes  
+  become: yes  
   hosts: all
   tasks: 
     - name: install apache2
